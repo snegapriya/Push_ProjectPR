@@ -1,0 +1,387 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 347115400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user open the browser",
+            "match": {
+              "location": "StepDefinition.user_open_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 359800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Checking the login functionality",
+        "description": "",
+        "id": "checking-the-product-purchase-functionality-in-sauce-demo-application;checking-the-login-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 321600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8506398900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Must Launch The Url",
+            "match": {
+              "location": "StepDefinition.user_Must_Launch_The_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 177020400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user Enter The \"abc\" In The Username Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinition.user_Enter_The_In_The_Username_Field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 170090200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user Enter The \"56787\" In The Password Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "56787",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinition.user_Enter_The_In_The_Password_Field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 157381400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user Click On Login Button and It Navigates To The Products Page",
+            "match": {
+              "location": "StepDefinition.user_Click_On_Login_Button_and_It_Navigates_To_The_Products_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Tag1"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 98000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user open the browser",
+            "match": {
+              "location": "StepDefinition.user_open_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 173600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Checking the login functionality",
+        "description": "",
+        "id": "checking-the-product-purchase-functionality-in-sauce-demo-application;checking-the-login-functionality;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 95700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5566453200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Must Launch The Url",
+            "match": {
+              "location": "StepDefinition.user_Must_Launch_The_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 197619300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user Enter The \"xyz\" In The Username Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xyz",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinition.user_Enter_The_In_The_Username_Field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142579800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user Enter The \"34569\" In The Password Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "34569",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinition.user_Enter_The_In_The_Password_Field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107798400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user Click On Login Button and It Navigates To The Products Page",
+            "match": {
+              "location": "StepDefinition.user_Click_On_Login_Button_and_It_Navigates_To_The_Products_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Tag1"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 113500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user open the browser",
+            "match": {
+              "location": "StepDefinition.user_open_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 80100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Checking the login functionality",
+        "description": "",
+        "id": "checking-the-product-purchase-functionality-in-sauce-demo-application;checking-the-login-functionality;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 176100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4004750300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Must Launch The Url",
+            "match": {
+              "location": "StepDefinition.user_Must_Launch_The_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 273544000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user Enter The \"standard_user\" In The Username Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinition.user_Enter_The_In_The_Username_Field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 179455000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user Enter The \"secret_sauce\" In The Password Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "secret_sauce",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinition.user_Enter_The_In_The_Password_Field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 261732900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user Click On Login Button and It Navigates To The Products Page",
+            "match": {
+              "location": "StepDefinition.user_Click_On_Login_Button_and_It_Navigates_To_The_Products_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Checking the product purchase functionality in Sauce demo Application",
+    "description": "",
+    "id": "checking-the-product-purchase-functionality-in-sauce-demo-application",
+    "keyword": "Feature",
+    "uri": "SauceDemo.feature"
+  }
+]
